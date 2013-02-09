@@ -1,0 +1,13 @@
+html,tr,a,td,body,img,div,table{padding:0px;margin:0px;}
+h1, h2, h3, h5 {font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, sans-serif }
+body{}
+#resume_header{
+font-size:30px;
+text-align:center;
+color:#4e4e4c;
+height:80px;
+background-color:#e0e0b8;
+}
+#resume_header:hover{
+color:#000;
+}
