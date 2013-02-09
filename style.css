@@ -6,6 +6,7 @@ a{text-decoration:none;}a:visited {color:#666665;}
 
 body{
 border-top:10px solid #ebebc8;
+border-bottom:40px solid #ebebc8;
 }
 #container{
 
@@ -24,8 +25,8 @@ font-size:15px;
 padding-top:10px;
 padding-right:20px;
 }
-#resume_header:hover a{
-color:#000;
+h4:hover a,p:hover a,#resume_header:hover a{
+color:#000; text-decoration:underline;
 }
 #my_name{
 padding:10px;
@@ -38,12 +39,15 @@ border:2px solid #f7f7c6;
 float:right;
 text-align:center;
 margin-bottom:20px;
-}
+}#contact_details:hover{background:#f7f7c6}
 #bar{
 clear:both;
 border-bottom:1px solid #f7f7c6}
 h3 {
 font-family: Lucida Console;font-size:25px;
+}
+h4 {
+font-family: Lucida Console;font-size:15px;
 }
 #float_box{
 width:400px;
@@ -52,3 +56,11 @@ border:2px solid #f7f7c6;
 float:center;
 margin-bottom:20px;
 }
+#project_box{
+width:800px;
+padding:10px;
+border:2px solid #f7f7c6;
+float:center;
+margin-bottom:20px;
+}
+#float_box:hover{background:#f7f7c6}
