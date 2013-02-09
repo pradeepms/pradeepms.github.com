@@ -1,11 +1,13 @@
 html,tr,a,td,body,img,div,table,h2,p,h1{padding:0px;margin:0px;}
 h2 {font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, sans-serif }
 h1{font-family: Lucida Console;font-size:40px;}
-
-a{text-decoration:none;}a:visited {color:#666665;}
-
+p,li{font-family:helvetica;color:#5f5f5f;font-size:12px; }
+a{text-decoration:none;color:#666665}a:visited {color:#666665;}
+h4:hover a,p:hover a,#resume_header:hover a{
+color:#000; text-decoration:underline;
+}
 body{
-border-top:10px solid #ebebc8;
+border-top:15px solid #ebebc8;
 border-bottom:40px solid #ebebc8;
 }
 #container{
@@ -25,9 +27,7 @@ font-size:15px;
 padding-top:10px;
 padding-right:20px;
 }
-h4:hover a,p:hover a,#resume_header:hover a{
-color:#000; text-decoration:underline;
-}
+
 #my_name{
 padding:10px;
 }
@@ -39,18 +39,19 @@ border:2px solid #f7f7c6;
 float:right;
 text-align:center;
 margin-bottom:20px;
-}#contact_details:hover{background:#f7f7c6}
+}#contact_details:hover{background:#f6f5d1}
 #bar{
 clear:both;
 border-bottom:1px solid #f7f7c6}
 h3 {
 font-family: Lucida Console;font-size:25px;
+
 }
 h4 {
 font-family: Lucida Console;font-size:15px;
 }
 #float_box{
-width:400px;
+width:500px;
 padding:10px;
 border:2px solid #f7f7c6;
 float:center;
@@ -63,4 +64,5 @@ border:2px solid #f7f7c6;
 float:center;
 margin-bottom:20px;
 }
-#float_box:hover{background:#f7f7c6}
+#float_box:hover{background:#f6f5d1}
+#project_box:hover{background:#f6f5d1}
