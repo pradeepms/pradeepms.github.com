@@ -1,83 +1,96 @@
-<html>
+<!doctype html>
 
-<head>
-<link href="style.css" rel="stylesheet" type="text/css" />
-<title>Pradeep M S</title>
-</head>
-<body>
-<div id="container">
-	<div id="resume_header">
+<html lang="en">
+  <head>
+    <title>Pradeep MS</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
+    <style type="text/css">
+      .spacer {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
 
-		<h2>download <a href="resume.pdf">resume</a></h2>
+    <div class="container">
 
-	</div>
-		
-	<div id="my_name">
-		
-			<h1>Pradeep M S</h1>
-	</div>
-	<div id="contact_details">
-			<p>Email : <a href="mailto:pradeepms.email@gmail.com">pradeepms.email@gmail.com</a><p>
-			<p>Repository : <a href="http://github.com/PradeepMS">github.com</a><p>
-	</div>
-	<div id="bar"></div>
-	<div id="sub_headers">
-	<h3>Education</h3>
-		<div id="float_box">
-			<p><span style="text-decoration:bold;">2008-2012</span></p>
-			<p><span style="padding-left:5em">Bachelor of Engineering in Computer Science, </span>
-			</p><p>
-			<span style="padding-left:5em">Visvesvaraya Technological University</span></p>
-		</div>
-	</div >
-	<h3>Skills</h3>
-		<div id="float_box">
-			<ul>
-				<li>Android programming</li>
-				<li>Core Java</li>
-				<li>DHTML</li>
-				<li>JSP Servlets</li>
-				<li>JSON</li>
-				<li>XML</li>
-			</ul>
-		</div>
-		<div id="bar"></div>
-		<div id="sub_headers">
-	<h3>Projects</h3>
-		<div id="project_box">
-			<h4>TPS (Type Print and Share):<a href="https://github.com/PradeepMS/TPS">source code</a></h4>
-			<p>Application which generates instant image out of EditText view with all possible color
-			combination (background and font color), and also image can be shared among other apps.</p>
-		
-			
-			<img class="image" src="images/TPS-MainUI-1.png" />
-			<img class="image" src="images/TPS-UI-2.png" />
-			<img class="image" src="images/TPS-UI-3.png" />
+      <div class="row">
+        <div class="span12">
+          <h1>
+            Pradeep MS
+            <span class="pull-right">
+              <a href="resume.pdf" class="btn btn-primary">PDF resume</a>
+            </span>
+          </h1>
+          <p>
+            <span class="label label-success">Android</span>
+            <span class="label label-success">HTML</span>
+            <span class="label label-success">CSS</span>
+            <span class="label label-success">Javascript</span>
+            <span class="label label-success">JSP</span>
+          </p>
+          <hr/>
 
-		</div>
-		<div id="project_box">
-			<h4>Online - Dictionary:<a href="https://github.com/PradeepMS/Online-Dictionary">source code</a></h4>
-			<p>This app takes input from the user and fetches its meaning from the XML file located
-on the internet.</p>
-				<img class="image" src="images/Dic-UI-1.png" />
-			<img class="image" src="images/Dic-UI-2.png" />
-			<img class="image" src="images/Dic-UI-3.png" />
 
-		</div>
-		<div id="project_box">
-			<h4>To-Do list(Ongoing): <a href="https://github.com/PradeepMS/To-Do">source code</a></h4>
-			<p>Stores list of tasks to be done in future..</p>
-				<!--<img class="image" src="images/Dic-UI-1.png" />
-			<img class="image" src="images/Dic-UI-2.png" />
-			<img class="image" src="images/Dic-UI-3.png" /> -->
+          <ul>
+            <li>
+              <a href="mailto:pradeepms@gmail.com">pradeepms@gmail.com</a>
+            </li>
 
-		</div>
-		<div id="bar"></div>
-		
-	</div >
-	</div >
-		
-</div>
+            <li>Github: 
+              <a href="http://github.com/pradeepms">pradeepms</a>
+            </li>
+          </ul>
 
-</body>
+
+          <h3>Education</h3>
+          <ul>
+            <li>
+              <em>2008 - 2012</em>
+              <br/>
+              Engineering in Computer Science
+              <br/>
+              Visvesvaraya Technological University
+            </li>
+          </ul>
+
+          <h3>Projects</h3>
+
+          <ul>
+            <li>
+              <h4>Dictionary <small>(<a href="https://github.com/PradeepMS/Online-Dictionary">source</a>)</small></h4>
+              Fetches meanings of words from an online API
+
+              <div class="row spacer">
+                <img src="images/dictionary-1.png" class="span3 offset1"/>
+                <img src="images/dictionary-2.png" class="span3"/>
+              </div>
+            </li>
+
+
+            <li class="spacer">
+              <h4>Type-Print-Share <small>(<a href="https://github.com/PradeepMS/TPS">source</a>)</small></h4>
+              Simple text meme creator that allows sharing or saving to memory
+
+              <div class="row spacer">
+                <img src="images/tps-1.png" class="span3 offset1"/>
+                <img src="images/tps-2.png" class="span3"/>
+                <img src="images/tps-3.png" class="span3"/>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="row spacer">
+        <hr/>
+        <div class="span12" style="text-align:center">
+          <a href="http://twitter.github.com/bootstrap" class="btn btn-link btn-small">made with bootstrap</a>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
 </html>
