@@ -7,7 +7,7 @@ font-size:16px;
 width:850px;
 margin:0px auto;
 font-weight:normal;
-margin-top:40px;margin-bottom:40px;background: #dededd;
+margin-top:40px;margin-bottom:40px;background: #fefefe;
 }
 h1{
 	font-family:georgia, 'bitstream vera sans serif', 'lucida grande',helvetica, verdana, sans-serif;
@@ -15,7 +15,7 @@ h1{
 	}
 
 
-#wrapper{border:1px solid #cecece;background: #fff; box-shadow: 3px 3px 5px #edecec;}
+#wrapper{border:1px solid #eaeaea;background: #fff; box-shadow: 2px 2px 8px #dddddd;}
 h1 {
 	text-align:center;
 	font-size:50px;
