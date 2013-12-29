@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script>
+	var player;
+	window.onload = function(){
+		document.getElementById('btnPlay').addEventListener('click', playMusic,false);
+		document.getElementById('btnPause').addEventListener('click', pauseMusic,false);
+		document.getElementById('btnStop').addEventListener('click', stopMusic,false);
+		document.getElementById('volUp').addEventListener('click', volumeUp,false);
+		document.getElementById('volDown').addEventListener('click', volumeDown,false);
+		player = document.getElementById('player');
+	}
+
+	function playMusic(){
+		player.play();
+	}
+	function pauseMusic(){
+		player.pause();
+	}
+	function stopMusic(){
+		player.pause();
+		player.currentTime=0;
+	}
+	function volumeUp(){
+		if(player.volume<1){
+			player.volume += 0.1;
+			console.log(player.volume);
+		}
+	}
+	function volumeDown(){
+		if(player.volume>0){
+			player.volume -= 0.1;
+			console.log(player.volume);
+		}
+	}
+	</script>
+</head>
+
+<body>
+	<audio id="player">
+		<source src="ninte.mp3"/>
+	</audio>
+
+	<button id="btnPlay">Play</button>
+	<button id="btnPause">Pause</button>
+	<button id="btnStop">Stop</button><br />
+
+	<button id="volUp">Volume +</button>
+	<button id="volDown">Volume -</button>
+</body>
+
+</html>
